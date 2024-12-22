@@ -37,7 +37,7 @@ main_node:
       depth_topic: "/camera/depth/image_raw" # "/camera_stereo/depth/image_raw" 
       laser_topic: "/scan" # or /front/scan
       imu_topic: "/imu/data" #imu_data or /imu/data
-      odom_topic: "/jackal/odom" # /odom or /jackal/ground_truth
+      odom_topic: "/odom" # /odom or /jackal/ground_truth
     laser_param:
       max_distance: 10.0 # Meters
       num_points: 36 # int divider of 360
@@ -49,7 +49,7 @@ main_node:
     rgb_param:
       width: 640
       height: 480
-      show_image: False 
+      show_image: True
 
     # Metrics
     robot_poses: True
