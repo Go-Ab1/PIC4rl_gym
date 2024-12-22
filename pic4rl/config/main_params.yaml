@@ -34,8 +34,8 @@ main_node:
     lidar_enabled: "true"
     sensors_topic:
       rgb_topic: "/camera_color/image_raw"
-      depth_topic: "/camera_stereo/depth/image_raw" # "/camera_stereo/depth/image_raw" 
-      laser_topic: "/front/scan" # /scan or /front/scan
+      depth_topic: "/camera/depth/image_raw" # "/camera_stereo/depth/image_raw" 
+      laser_topic: "/scan" # or /front/scan
       imu_topic: "/imu/data" #imu_data or /imu/data
       odom_topic: "/jackal/odom" # /odom or /jackal/ground_truth
     laser_param:
